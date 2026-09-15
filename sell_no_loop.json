@@ -1,0 +1,2244 @@
+{
+  "steps": [
+    {
+      "step_type": "delay",
+      "params": {
+        "duration": 3.0
+      },
+      "enabled": true
+    },
+    {
+      "step_type": "keyboard",
+      "params": {
+        "key": "ESC",
+        "press_count": 1,
+        "press_duration": 50,
+        "interval": 100
+      },
+      "enabled": true
+    },
+    {
+      "step_type": "delay",
+      "params": {
+        "duration": 1.0
+      },
+      "enabled": true
+    },
+    {
+      "step_type": "image_click",
+      "params": {
+        "template_path": "C:/Users/10482/Desktop/text/新建文件夹/服务器选线.png",
+        "button": "left",
+        "clicks": 1,
+        "confidence": 0.8,
+        "delay_before": 0.0,
+        "delay_after": 0.5,
+        "on_fail": "continue"
+      },
+      "enabled": true
+    },
+    {
+      "step_type": "delay",
+      "params": {
+        "duration": 1.0
+      },
+      "enabled": true
+    },
+    {
+      "step_type": "image_click",
+      "params": {
+        "template_path": "C:/Users/10482/Desktop/text/新建文件夹/1线.png",
+        "button": "left",
+        "clicks": 2,
+        "confidence": 0.8,
+        "delay_before": 0.0,
+        "delay_after": 0.5,
+        "on_fail": "continue"
+      },
+      "enabled": true
+    },
+    {
+      "step_type": "delay",
+      "params": {
+        "duration": 1.0
+      },
+      "enabled": true
+    },
+    {
+      "step_type": "image_check",
+      "params": {
+        "template_path": "C:/Users/10482/Desktop/text/新建文件夹/线路已满.png",
+        "confidence": 0.8,
+        "condition": "exists",
+        "if_true_goto": null,
+        "if_false_goto": 10
+      },
+      "enabled": true
+    },
+    {
+      "step_type": "delay",
+      "params": {
+        "duration": 1.0
+      },
+      "enabled": true
+    },
+    {
+      "step_type": "image_click",
+      "params": {
+        "template_path": "C:/Users/10482/Desktop/text/新建文件夹/确定.png",
+        "button": "left",
+        "clicks": 1,
+        "confidence": 0.8,
+        "delay_before": 0.0,
+        "delay_after": 0.5,
+        "on_fail": "continue"
+      },
+      "enabled": true
+    },
+    {
+      "step_type": "delay",
+      "params": {
+        "duration": 1.0
+      },
+      "enabled": true
+    },
+    {
+      "step_type": "delay",
+      "params": {
+        "duration": 1.0
+      },
+      "enabled": true
+    },
+    {
+      "step_type": "keyboard",
+      "params": {
+        "key": "ENTER",
+        "press_count": 1,
+        "press_duration": 50,
+        "interval": 100
+      },
+      "enabled": true
+    },
+    {
+      "step_type": "delay",
+      "params": {
+        "duration": 1.0
+      },
+      "enabled": true
+    },
+    {
+      "step_type": "keyboard",
+      "params": {
+        "key": "UP",
+        "press_count": 1,
+        "press_duration": 50,
+        "interval": 100
+      },
+      "enabled": true
+    },
+    {
+      "step_type": "delay",
+      "params": {
+        "duration": 1.0
+      },
+      "enabled": true
+    },
+    {
+      "step_type": "keyboard",
+      "params": {
+        "key": "ENTER",
+        "press_count": 1,
+        "press_duration": 50,
+        "interval": 100
+      },
+      "enabled": true
+    },
+    {
+      "step_type": "delay",
+      "params": {
+        "duration": 1.0
+      },
+      "enabled": true
+    },
+    {
+      "step_type": "delay",
+      "params": {
+        "duration": 3.0
+      },
+      "enabled": true
+    },
+    {
+      "step_type": "keyboard",
+      "params": {
+        "key": "ESC",
+        "press_count": 1,
+        "press_duration": 50,
+        "interval": 100
+      },
+      "enabled": true
+    },
+    {
+      "step_type": "delay",
+      "params": {
+        "duration": 1.0
+      },
+      "enabled": true
+    },
+    {
+      "step_type": "image_click",
+      "params": {
+        "template_path": "C:/Users/10482/Desktop/text/新建文件夹/服务器选线.png",
+        "button": "left",
+        "clicks": 1,
+        "confidence": 0.8,
+        "delay_before": 0.0,
+        "delay_after": 0.5,
+        "on_fail": "continue"
+      },
+      "enabled": true
+    },
+    {
+      "step_type": "delay",
+      "params": {
+        "duration": 1.0
+      },
+      "enabled": true
+    },
+    {
+      "step_type": "image_click",
+      "params": {
+        "template_path": "C:/Users/10482/Desktop/text/新建文件夹/2线.png",
+        "button": "left",
+        "clicks": 2,
+        "confidence": 0.8,
+        "delay_before": 0.0,
+        "delay_after": 0.5,
+        "on_fail": "continue"
+      },
+      "enabled": true
+    },
+    {
+      "step_type": "delay",
+      "params": {
+        "duration": 1.0
+      },
+      "enabled": true
+    },
+    {
+      "step_type": "image_check",
+      "params": {
+        "template_path": "C:/Users/10482/Desktop/text/新建文件夹/线路已满.png",
+        "confidence": 0.8,
+        "condition": "exists",
+        "if_true_goto": null,
+        "if_false_goto": 28
+      },
+      "enabled": true
+    },
+    {
+      "step_type": "delay",
+      "params": {
+        "duration": 1.0
+      },
+      "enabled": true
+    },
+    {
+      "step_type": "image_click",
+      "params": {
+        "template_path": "C:/Users/10482/Desktop/text/新建文件夹/确定.png",
+        "button": "left",
+        "clicks": 1,
+        "confidence": 0.8,
+        "delay_before": 0.0,
+        "delay_after": 0.5,
+        "on_fail": "continue"
+      },
+      "enabled": true
+    },
+    {
+      "step_type": "delay",
+      "params": {
+        "duration": 1.0
+      },
+      "enabled": true
+    },
+    {
+      "step_type": "delay",
+      "params": {
+        "duration": 1.0
+      },
+      "enabled": true
+    },
+    {
+      "step_type": "keyboard",
+      "params": {
+        "key": "ENTER",
+        "press_count": 1,
+        "press_duration": 50,
+        "interval": 100
+      },
+      "enabled": true
+    },
+    {
+      "step_type": "delay",
+      "params": {
+        "duration": 1.0
+      },
+      "enabled": true
+    },
+    {
+      "step_type": "keyboard",
+      "params": {
+        "key": "UP",
+        "press_count": 1,
+        "press_duration": 50,
+        "interval": 100
+      },
+      "enabled": true
+    },
+    {
+      "step_type": "delay",
+      "params": {
+        "duration": 1.0
+      },
+      "enabled": true
+    },
+    {
+      "step_type": "keyboard",
+      "params": {
+        "key": "ENTER",
+        "press_count": 1,
+        "press_duration": 50,
+        "interval": 100
+      },
+      "enabled": true
+    },
+    {
+      "step_type": "delay",
+      "params": {
+        "duration": 1.0
+      },
+      "enabled": true
+    },
+    {
+      "step_type": "delay",
+      "params": {
+        "duration": 3.0
+      },
+      "enabled": true
+    },
+    {
+      "step_type": "keyboard",
+      "params": {
+        "key": "ESC",
+        "press_count": 1,
+        "press_duration": 50,
+        "interval": 100
+      },
+      "enabled": true
+    },
+    {
+      "step_type": "delay",
+      "params": {
+        "duration": 1.0
+      },
+      "enabled": true
+    },
+    {
+      "step_type": "image_click",
+      "params": {
+        "template_path": "C:/Users/10482/Desktop/text/新建文件夹/服务器选线.png",
+        "button": "left",
+        "clicks": 1,
+        "confidence": 0.8,
+        "delay_before": 0.0,
+        "delay_after": 0.5,
+        "on_fail": "continue"
+      },
+      "enabled": true
+    },
+    {
+      "step_type": "delay",
+      "params": {
+        "duration": 1.0
+      },
+      "enabled": true
+    },
+    {
+      "step_type": "image_click",
+      "params": {
+        "template_path": "C:/Users/10482/Desktop/text/新建文件夹/3线.png",
+        "button": "left",
+        "clicks": 2,
+        "confidence": 0.8,
+        "delay_before": 0.0,
+        "delay_after": 0.5,
+        "on_fail": "continue"
+      },
+      "enabled": true
+    },
+    {
+      "step_type": "delay",
+      "params": {
+        "duration": 1.0
+      },
+      "enabled": true
+    },
+    {
+      "step_type": "image_check",
+      "params": {
+        "template_path": "C:/Users/10482/Desktop/text/新建文件夹/线路已满.png",
+        "confidence": 0.8,
+        "condition": "exists",
+        "if_true_goto": null,
+        "if_false_goto": 46
+      },
+      "enabled": true
+    },
+    {
+      "step_type": "delay",
+      "params": {
+        "duration": 1.0
+      },
+      "enabled": true
+    },
+    {
+      "step_type": "image_click",
+      "params": {
+        "template_path": "C:/Users/10482/Desktop/text/新建文件夹/确定.png",
+        "button": "left",
+        "clicks": 1,
+        "confidence": 0.8,
+        "delay_before": 0.0,
+        "delay_after": 0.5,
+        "on_fail": "continue"
+      },
+      "enabled": true
+    },
+    {
+      "step_type": "delay",
+      "params": {
+        "duration": 1.0
+      },
+      "enabled": true
+    },
+    {
+      "step_type": "delay",
+      "params": {
+        "duration": 1.0
+      },
+      "enabled": true
+    },
+    {
+      "step_type": "keyboard",
+      "params": {
+        "key": "ENTER",
+        "press_count": 1,
+        "press_duration": 50,
+        "interval": 100
+      },
+      "enabled": true
+    },
+    {
+      "step_type": "delay",
+      "params": {
+        "duration": 1.0
+      },
+      "enabled": true
+    },
+    {
+      "step_type": "keyboard",
+      "params": {
+        "key": "UP",
+        "press_count": 1,
+        "press_duration": 50,
+        "interval": 100
+      },
+      "enabled": true
+    },
+    {
+      "step_type": "delay",
+      "params": {
+        "duration": 1.0
+      },
+      "enabled": true
+    },
+    {
+      "step_type": "keyboard",
+      "params": {
+        "key": "ENTER",
+        "press_count": 1,
+        "press_duration": 50,
+        "interval": 100
+      },
+      "enabled": true
+    },
+    {
+      "step_type": "delay",
+      "params": {
+        "duration": 1.0
+      },
+      "enabled": true
+    },
+    {
+      "step_type": "delay",
+      "params": {
+        "duration": 3.0
+      },
+      "enabled": true
+    },
+    {
+      "step_type": "keyboard",
+      "params": {
+        "key": "ESC",
+        "press_count": 1,
+        "press_duration": 50,
+        "interval": 100
+      },
+      "enabled": true
+    },
+    {
+      "step_type": "delay",
+      "params": {
+        "duration": 1.0
+      },
+      "enabled": true
+    },
+    {
+      "step_type": "image_click",
+      "params": {
+        "template_path": "C:/Users/10482/Desktop/text/新建文件夹/服务器选线.png",
+        "button": "left",
+        "clicks": 1,
+        "confidence": 0.8,
+        "delay_before": 0.0,
+        "delay_after": 0.5,
+        "on_fail": "continue"
+      },
+      "enabled": true
+    },
+    {
+      "step_type": "delay",
+      "params": {
+        "duration": 1.0
+      },
+      "enabled": true
+    },
+    {
+      "step_type": "image_click",
+      "params": {
+        "template_path": "C:/Users/10482/Desktop/text/新建文件夹/4线.png",
+        "button": "left",
+        "clicks": 2,
+        "confidence": 0.8,
+        "delay_before": 0.0,
+        "delay_after": 0.5,
+        "on_fail": "continue"
+      },
+      "enabled": true
+    },
+    {
+      "step_type": "delay",
+      "params": {
+        "duration": 1.0
+      },
+      "enabled": true
+    },
+    {
+      "step_type": "image_check",
+      "params": {
+        "template_path": "C:/Users/10482/Desktop/text/新建文件夹/线路已满.png",
+        "confidence": 0.8,
+        "condition": "exists",
+        "if_true_goto": null,
+        "if_false_goto": 64
+      },
+      "enabled": true
+    },
+    {
+      "step_type": "delay",
+      "params": {
+        "duration": 1.0
+      },
+      "enabled": true
+    },
+    {
+      "step_type": "image_click",
+      "params": {
+        "template_path": "C:/Users/10482/Desktop/text/新建文件夹/确定.png",
+        "button": "left",
+        "clicks": 1,
+        "confidence": 0.8,
+        "delay_before": 0.0,
+        "delay_after": 0.5,
+        "on_fail": "continue"
+      },
+      "enabled": true
+    },
+    {
+      "step_type": "delay",
+      "params": {
+        "duration": 1.0
+      },
+      "enabled": true
+    },
+    {
+      "step_type": "delay",
+      "params": {
+        "duration": 1.0
+      },
+      "enabled": true
+    },
+    {
+      "step_type": "keyboard",
+      "params": {
+        "key": "ENTER",
+        "press_count": 1,
+        "press_duration": 50,
+        "interval": 100
+      },
+      "enabled": true
+    },
+    {
+      "step_type": "delay",
+      "params": {
+        "duration": 1.0
+      },
+      "enabled": true
+    },
+    {
+      "step_type": "keyboard",
+      "params": {
+        "key": "UP",
+        "press_count": 1,
+        "press_duration": 50,
+        "interval": 100
+      },
+      "enabled": true
+    },
+    {
+      "step_type": "delay",
+      "params": {
+        "duration": 1.0
+      },
+      "enabled": true
+    },
+    {
+      "step_type": "keyboard",
+      "params": {
+        "key": "ENTER",
+        "press_count": 1,
+        "press_duration": 50,
+        "interval": 100
+      },
+      "enabled": true
+    },
+    {
+      "step_type": "delay",
+      "params": {
+        "duration": 1.0
+      },
+      "enabled": true
+    },
+    {
+      "step_type": "delay",
+      "params": {
+        "duration": 3.0
+      },
+      "enabled": true
+    },
+    {
+      "step_type": "keyboard",
+      "params": {
+        "key": "ESC",
+        "press_count": 1,
+        "press_duration": 50,
+        "interval": 100
+      },
+      "enabled": true
+    },
+    {
+      "step_type": "delay",
+      "params": {
+        "duration": 1.0
+      },
+      "enabled": true
+    },
+    {
+      "step_type": "image_click",
+      "params": {
+        "template_path": "C:/Users/10482/Desktop/text/新建文件夹/服务器选线.png",
+        "button": "left",
+        "clicks": 1,
+        "confidence": 0.8,
+        "delay_before": 0.0,
+        "delay_after": 0.5,
+        "on_fail": "continue"
+      },
+      "enabled": true
+    },
+    {
+      "step_type": "delay",
+      "params": {
+        "duration": 1.0
+      },
+      "enabled": true
+    },
+    {
+      "step_type": "image_click",
+      "params": {
+        "template_path": "C:/Users/10482/Desktop/text/新建文件夹/5线.png",
+        "button": "left",
+        "clicks": 2,
+        "confidence": 0.8,
+        "delay_before": 0.0,
+        "delay_after": 0.5,
+        "on_fail": "continue"
+      },
+      "enabled": true
+    },
+    {
+      "step_type": "delay",
+      "params": {
+        "duration": 1.0
+      },
+      "enabled": true
+    },
+    {
+      "step_type": "image_check",
+      "params": {
+        "template_path": "C:/Users/10482/Desktop/text/新建文件夹/线路已满.png",
+        "confidence": 0.8,
+        "condition": "exists",
+        "if_true_goto": null,
+        "if_false_goto": 82
+      },
+      "enabled": true
+    },
+    {
+      "step_type": "delay",
+      "params": {
+        "duration": 1.0
+      },
+      "enabled": true
+    },
+    {
+      "step_type": "image_click",
+      "params": {
+        "template_path": "C:/Users/10482/Desktop/text/新建文件夹/确定.png",
+        "button": "left",
+        "clicks": 1,
+        "confidence": 0.8,
+        "delay_before": 0.0,
+        "delay_after": 0.5,
+        "on_fail": "continue"
+      },
+      "enabled": true
+    },
+    {
+      "step_type": "delay",
+      "params": {
+        "duration": 1.0
+      },
+      "enabled": true
+    },
+    {
+      "step_type": "delay",
+      "params": {
+        "duration": 1.0
+      },
+      "enabled": true
+    },
+    {
+      "step_type": "keyboard",
+      "params": {
+        "key": "ENTER",
+        "press_count": 1,
+        "press_duration": 50,
+        "interval": 100
+      },
+      "enabled": true
+    },
+    {
+      "step_type": "delay",
+      "params": {
+        "duration": 1.0
+      },
+      "enabled": true
+    },
+    {
+      "step_type": "keyboard",
+      "params": {
+        "key": "UP",
+        "press_count": 1,
+        "press_duration": 50,
+        "interval": 100
+      },
+      "enabled": true
+    },
+    {
+      "step_type": "delay",
+      "params": {
+        "duration": 1.0
+      },
+      "enabled": true
+    },
+    {
+      "step_type": "keyboard",
+      "params": {
+        "key": "ENTER",
+        "press_count": 1,
+        "press_duration": 50,
+        "interval": 100
+      },
+      "enabled": true
+    },
+    {
+      "step_type": "delay",
+      "params": {
+        "duration": 1.0
+      },
+      "enabled": true
+    },
+    {
+      "step_type": "delay",
+      "params": {
+        "duration": 3.0
+      },
+      "enabled": true
+    },
+    {
+      "step_type": "keyboard",
+      "params": {
+        "key": "ESC",
+        "press_count": 1,
+        "press_duration": 50,
+        "interval": 100
+      },
+      "enabled": true
+    },
+    {
+      "step_type": "delay",
+      "params": {
+        "duration": 1.0
+      },
+      "enabled": true
+    },
+    {
+      "step_type": "image_click",
+      "params": {
+        "template_path": "C:/Users/10482/Desktop/text/新建文件夹/服务器选线.png",
+        "button": "left",
+        "clicks": 1,
+        "confidence": 0.8,
+        "delay_before": 0.0,
+        "delay_after": 0.5,
+        "on_fail": "continue"
+      },
+      "enabled": true
+    },
+    {
+      "step_type": "delay",
+      "params": {
+        "duration": 1.0
+      },
+      "enabled": true
+    },
+    {
+      "step_type": "image_click",
+      "params": {
+        "template_path": "C:/Users/10482/Desktop/text/新建文件夹/6线.png",
+        "button": "left",
+        "clicks": 2,
+        "confidence": 0.8,
+        "delay_before": 0.0,
+        "delay_after": 0.5,
+        "on_fail": "continue"
+      },
+      "enabled": true
+    },
+    {
+      "step_type": "delay",
+      "params": {
+        "duration": 1.0
+      },
+      "enabled": true
+    },
+    {
+      "step_type": "image_check",
+      "params": {
+        "template_path": "C:/Users/10482/Desktop/text/新建文件夹/线路已满.png",
+        "confidence": 0.8,
+        "condition": "exists",
+        "if_true_goto": null,
+        "if_false_goto": 100
+      },
+      "enabled": true
+    },
+    {
+      "step_type": "delay",
+      "params": {
+        "duration": 1.0
+      },
+      "enabled": true
+    },
+    {
+      "step_type": "image_click",
+      "params": {
+        "template_path": "C:/Users/10482/Desktop/text/新建文件夹/确定.png",
+        "button": "left",
+        "clicks": 1,
+        "confidence": 0.8,
+        "delay_before": 0.0,
+        "delay_after": 0.5,
+        "on_fail": "continue"
+      },
+      "enabled": true
+    },
+    {
+      "step_type": "delay",
+      "params": {
+        "duration": 1.0
+      },
+      "enabled": true
+    },
+    {
+      "step_type": "delay",
+      "params": {
+        "duration": 1.0
+      },
+      "enabled": true
+    },
+    {
+      "step_type": "keyboard",
+      "params": {
+        "key": "ENTER",
+        "press_count": 1,
+        "press_duration": 50,
+        "interval": 100
+      },
+      "enabled": true
+    },
+    {
+      "step_type": "delay",
+      "params": {
+        "duration": 1.0
+      },
+      "enabled": true
+    },
+    {
+      "step_type": "keyboard",
+      "params": {
+        "key": "UP",
+        "press_count": 1,
+        "press_duration": 50,
+        "interval": 100
+      },
+      "enabled": true
+    },
+    {
+      "step_type": "delay",
+      "params": {
+        "duration": 1.0
+      },
+      "enabled": true
+    },
+    {
+      "step_type": "keyboard",
+      "params": {
+        "key": "ENTER",
+        "press_count": 1,
+        "press_duration": 50,
+        "interval": 100
+      },
+      "enabled": true
+    },
+    {
+      "step_type": "delay",
+      "params": {
+        "duration": 1.0
+      },
+      "enabled": true
+    },
+    {
+      "step_type": "delay",
+      "params": {
+        "duration": 3.0
+      },
+      "enabled": true
+    },
+    {
+      "step_type": "keyboard",
+      "params": {
+        "key": "ESC",
+        "press_count": 1,
+        "press_duration": 50,
+        "interval": 100
+      },
+      "enabled": true
+    },
+    {
+      "step_type": "delay",
+      "params": {
+        "duration": 1.0
+      },
+      "enabled": true
+    },
+    {
+      "step_type": "image_click",
+      "params": {
+        "template_path": "C:/Users/10482/Desktop/text/新建文件夹/服务器选线.png",
+        "button": "left",
+        "clicks": 1,
+        "confidence": 0.8,
+        "delay_before": 0.0,
+        "delay_after": 0.5,
+        "on_fail": "continue"
+      },
+      "enabled": true
+    },
+    {
+      "step_type": "delay",
+      "params": {
+        "duration": 1.0
+      },
+      "enabled": true
+    },
+    {
+      "step_type": "image_click",
+      "params": {
+        "template_path": "C:/Users/10482/Desktop/text/新建文件夹/7线.png",
+        "button": "left",
+        "clicks": 2,
+        "confidence": 0.8,
+        "delay_before": 0.0,
+        "delay_after": 0.5,
+        "on_fail": "continue"
+      },
+      "enabled": true
+    },
+    {
+      "step_type": "delay",
+      "params": {
+        "duration": 1.0
+      },
+      "enabled": true
+    },
+    {
+      "step_type": "image_check",
+      "params": {
+        "template_path": "C:/Users/10482/Desktop/text/新建文件夹/线路已满.png",
+        "confidence": 0.8,
+        "condition": "exists",
+        "if_true_goto": null,
+        "if_false_goto": 118
+      },
+      "enabled": true
+    },
+    {
+      "step_type": "delay",
+      "params": {
+        "duration": 1.0
+      },
+      "enabled": true
+    },
+    {
+      "step_type": "image_click",
+      "params": {
+        "template_path": "C:/Users/10482/Desktop/text/新建文件夹/确定.png",
+        "button": "left",
+        "clicks": 1,
+        "confidence": 0.8,
+        "delay_before": 0.0,
+        "delay_after": 0.5,
+        "on_fail": "continue"
+      },
+      "enabled": true
+    },
+    {
+      "step_type": "delay",
+      "params": {
+        "duration": 1.0
+      },
+      "enabled": true
+    },
+    {
+      "step_type": "delay",
+      "params": {
+        "duration": 1.0
+      },
+      "enabled": true
+    },
+    {
+      "step_type": "keyboard",
+      "params": {
+        "key": "ENTER",
+        "press_count": 1,
+        "press_duration": 50,
+        "interval": 100
+      },
+      "enabled": true
+    },
+    {
+      "step_type": "delay",
+      "params": {
+        "duration": 1.0
+      },
+      "enabled": true
+    },
+    {
+      "step_type": "keyboard",
+      "params": {
+        "key": "UP",
+        "press_count": 1,
+        "press_duration": 50,
+        "interval": 100
+      },
+      "enabled": true
+    },
+    {
+      "step_type": "delay",
+      "params": {
+        "duration": 1.0
+      },
+      "enabled": true
+    },
+    {
+      "step_type": "keyboard",
+      "params": {
+        "key": "ENTER",
+        "press_count": 1,
+        "press_duration": 50,
+        "interval": 100
+      },
+      "enabled": true
+    },
+    {
+      "step_type": "delay",
+      "params": {
+        "duration": 1.0
+      },
+      "enabled": true
+    },
+    {
+      "step_type": "delay",
+      "params": {
+        "duration": 3.0
+      },
+      "enabled": true
+    },
+    {
+      "step_type": "keyboard",
+      "params": {
+        "key": "ESC",
+        "press_count": 1,
+        "press_duration": 50,
+        "interval": 100
+      },
+      "enabled": true
+    },
+    {
+      "step_type": "delay",
+      "params": {
+        "duration": 1.0
+      },
+      "enabled": true
+    },
+    {
+      "step_type": "image_click",
+      "params": {
+        "template_path": "C:/Users/10482/Desktop/text/新建文件夹/服务器选线.png",
+        "button": "left",
+        "clicks": 1,
+        "confidence": 0.8,
+        "delay_before": 0.0,
+        "delay_after": 0.5,
+        "on_fail": "continue"
+      },
+      "enabled": true
+    },
+    {
+      "step_type": "delay",
+      "params": {
+        "duration": 1.0
+      },
+      "enabled": true
+    },
+    {
+      "step_type": "image_click",
+      "params": {
+        "template_path": "C:/Users/10482/Desktop/text/新建文件夹/8线.png",
+        "button": "left",
+        "clicks": 2,
+        "confidence": 0.8,
+        "delay_before": 0.0,
+        "delay_after": 0.5,
+        "on_fail": "continue"
+      },
+      "enabled": true
+    },
+    {
+      "step_type": "delay",
+      "params": {
+        "duration": 1.0
+      },
+      "enabled": true
+    },
+    {
+      "step_type": "image_check",
+      "params": {
+        "template_path": "C:/Users/10482/Desktop/text/新建文件夹/线路已满.png",
+        "confidence": 0.8,
+        "condition": "exists",
+        "if_true_goto": null,
+        "if_false_goto": 136
+      },
+      "enabled": true
+    },
+    {
+      "step_type": "delay",
+      "params": {
+        "duration": 1.0
+      },
+      "enabled": true
+    },
+    {
+      "step_type": "image_click",
+      "params": {
+        "template_path": "C:/Users/10482/Desktop/text/新建文件夹/确定.png",
+        "button": "left",
+        "clicks": 1,
+        "confidence": 0.8,
+        "delay_before": 0.0,
+        "delay_after": 0.5,
+        "on_fail": "continue"
+      },
+      "enabled": true
+    },
+    {
+      "step_type": "delay",
+      "params": {
+        "duration": 1.0
+      },
+      "enabled": true
+    },
+    {
+      "step_type": "delay",
+      "params": {
+        "duration": 1.0
+      },
+      "enabled": true
+    },
+    {
+      "step_type": "keyboard",
+      "params": {
+        "key": "ENTER",
+        "press_count": 1,
+        "press_duration": 50,
+        "interval": 100
+      },
+      "enabled": true
+    },
+    {
+      "step_type": "delay",
+      "params": {
+        "duration": 1.0
+      },
+      "enabled": true
+    },
+    {
+      "step_type": "keyboard",
+      "params": {
+        "key": "UP",
+        "press_count": 1,
+        "press_duration": 50,
+        "interval": 100
+      },
+      "enabled": true
+    },
+    {
+      "step_type": "delay",
+      "params": {
+        "duration": 1.0
+      },
+      "enabled": true
+    },
+    {
+      "step_type": "keyboard",
+      "params": {
+        "key": "ENTER",
+        "press_count": 1,
+        "press_duration": 50,
+        "interval": 100
+      },
+      "enabled": true
+    },
+    {
+      "step_type": "delay",
+      "params": {
+        "duration": 1.0
+      },
+      "enabled": true
+    },
+    {
+      "step_type": "delay",
+      "params": {
+        "duration": 3.0
+      },
+      "enabled": true
+    },
+    {
+      "step_type": "keyboard",
+      "params": {
+        "key": "ESC",
+        "press_count": 1,
+        "press_duration": 50,
+        "interval": 100
+      },
+      "enabled": true
+    },
+    {
+      "step_type": "delay",
+      "params": {
+        "duration": 1.0
+      },
+      "enabled": true
+    },
+    {
+      "step_type": "image_click",
+      "params": {
+        "template_path": "C:/Users/10482/Desktop/text/新建文件夹/服务器选线.png",
+        "button": "left",
+        "clicks": 1,
+        "confidence": 0.8,
+        "delay_before": 0.0,
+        "delay_after": 0.5,
+        "on_fail": "continue"
+      },
+      "enabled": true
+    },
+    {
+      "step_type": "delay",
+      "params": {
+        "duration": 1.0
+      },
+      "enabled": true
+    },
+    {
+      "step_type": "image_click",
+      "params": {
+        "template_path": "C:/Users/10482/Desktop/text/新建文件夹/9线.png",
+        "button": "left",
+        "clicks": 2,
+        "confidence": 0.8,
+        "delay_before": 0.0,
+        "delay_after": 0.5,
+        "on_fail": "continue"
+      },
+      "enabled": true
+    },
+    {
+      "step_type": "delay",
+      "params": {
+        "duration": 1.0
+      },
+      "enabled": true
+    },
+    {
+      "step_type": "image_check",
+      "params": {
+        "template_path": "C:/Users/10482/Desktop/text/新建文件夹/线路已满.png",
+        "confidence": 0.8,
+        "condition": "exists",
+        "if_true_goto": null,
+        "if_false_goto": 154
+      },
+      "enabled": true
+    },
+    {
+      "step_type": "delay",
+      "params": {
+        "duration": 1.0
+      },
+      "enabled": true
+    },
+    {
+      "step_type": "image_click",
+      "params": {
+        "template_path": "C:/Users/10482/Desktop/text/新建文件夹/确定.png",
+        "button": "left",
+        "clicks": 1,
+        "confidence": 0.8,
+        "delay_before": 0.0,
+        "delay_after": 0.5,
+        "on_fail": "continue"
+      },
+      "enabled": true
+    },
+    {
+      "step_type": "delay",
+      "params": {
+        "duration": 1.0
+      },
+      "enabled": true
+    },
+    {
+      "step_type": "delay",
+      "params": {
+        "duration": 1.0
+      },
+      "enabled": true
+    },
+    {
+      "step_type": "keyboard",
+      "params": {
+        "key": "ENTER",
+        "press_count": 1,
+        "press_duration": 50,
+        "interval": 100
+      },
+      "enabled": true
+    },
+    {
+      "step_type": "delay",
+      "params": {
+        "duration": 1.0
+      },
+      "enabled": true
+    },
+    {
+      "step_type": "keyboard",
+      "params": {
+        "key": "UP",
+        "press_count": 1,
+        "press_duration": 50,
+        "interval": 100
+      },
+      "enabled": true
+    },
+    {
+      "step_type": "delay",
+      "params": {
+        "duration": 1.0
+      },
+      "enabled": true
+    },
+    {
+      "step_type": "keyboard",
+      "params": {
+        "key": "ENTER",
+        "press_count": 1,
+        "press_duration": 50,
+        "interval": 100
+      },
+      "enabled": true
+    },
+    {
+      "step_type": "delay",
+      "params": {
+        "duration": 1.0
+      },
+      "enabled": true
+    },
+    {
+      "step_type": "delay",
+      "params": {
+        "duration": 3.0
+      },
+      "enabled": true
+    },
+    {
+      "step_type": "keyboard",
+      "params": {
+        "key": "ESC",
+        "press_count": 1,
+        "press_duration": 50,
+        "interval": 100
+      },
+      "enabled": true
+    },
+    {
+      "step_type": "delay",
+      "params": {
+        "duration": 1.0
+      },
+      "enabled": true
+    },
+    {
+      "step_type": "image_click",
+      "params": {
+        "template_path": "C:/Users/10482/Desktop/text/新建文件夹/服务器选线.png",
+        "button": "left",
+        "clicks": 1,
+        "confidence": 0.8,
+        "delay_before": 0.0,
+        "delay_after": 0.5,
+        "on_fail": "continue"
+      },
+      "enabled": true
+    },
+    {
+      "step_type": "delay",
+      "params": {
+        "duration": 1.0
+      },
+      "enabled": true
+    },
+    {
+      "step_type": "image_click",
+      "params": {
+        "template_path": "C:/Users/10482/Desktop/text/新建文件夹/10线.png",
+        "button": "left",
+        "clicks": 2,
+        "confidence": 0.8,
+        "delay_before": 0.0,
+        "delay_after": 0.5,
+        "on_fail": "continue"
+      },
+      "enabled": true
+    },
+    {
+      "step_type": "delay",
+      "params": {
+        "duration": 1.0
+      },
+      "enabled": true
+    },
+    {
+      "step_type": "image_check",
+      "params": {
+        "template_path": "C:/Users/10482/Desktop/text/新建文件夹/线路已满.png",
+        "confidence": 0.8,
+        "condition": "exists",
+        "if_true_goto": null,
+        "if_false_goto": 172
+      },
+      "enabled": true
+    },
+    {
+      "step_type": "delay",
+      "params": {
+        "duration": 1.0
+      },
+      "enabled": true
+    },
+    {
+      "step_type": "image_click",
+      "params": {
+        "template_path": "C:/Users/10482/Desktop/text/新建文件夹/确定.png",
+        "button": "left",
+        "clicks": 1,
+        "confidence": 0.8,
+        "delay_before": 0.0,
+        "delay_after": 0.5,
+        "on_fail": "continue"
+      },
+      "enabled": true
+    },
+    {
+      "step_type": "delay",
+      "params": {
+        "duration": 1.0
+      },
+      "enabled": true
+    },
+    {
+      "step_type": "delay",
+      "params": {
+        "duration": 1.0
+      },
+      "enabled": true
+    },
+    {
+      "step_type": "keyboard",
+      "params": {
+        "key": "ENTER",
+        "press_count": 1,
+        "press_duration": 50,
+        "interval": 100
+      },
+      "enabled": true
+    },
+    {
+      "step_type": "delay",
+      "params": {
+        "duration": 1.0
+      },
+      "enabled": true
+    },
+    {
+      "step_type": "keyboard",
+      "params": {
+        "key": "UP",
+        "press_count": 1,
+        "press_duration": 50,
+        "interval": 100
+      },
+      "enabled": true
+    },
+    {
+      "step_type": "delay",
+      "params": {
+        "duration": 1.0
+      },
+      "enabled": true
+    },
+    {
+      "step_type": "keyboard",
+      "params": {
+        "key": "ENTER",
+        "press_count": 1,
+        "press_duration": 50,
+        "interval": 100
+      },
+      "enabled": true
+    },
+    {
+      "step_type": "delay",
+      "params": {
+        "duration": 1.0
+      },
+      "enabled": true
+    },
+    {
+      "step_type": "delay",
+      "params": {
+        "duration": 3.0
+      },
+      "enabled": true
+    },
+    {
+      "step_type": "keyboard",
+      "params": {
+        "key": "ESC",
+        "press_count": 1,
+        "press_duration": 50,
+        "interval": 100
+      },
+      "enabled": true
+    },
+    {
+      "step_type": "delay",
+      "params": {
+        "duration": 1.0
+      },
+      "enabled": true
+    },
+    {
+      "step_type": "image_click",
+      "params": {
+        "template_path": "C:/Users/10482/Desktop/text/新建文件夹/服务器选线.png",
+        "button": "left",
+        "clicks": 1,
+        "confidence": 0.8,
+        "delay_before": 0.0,
+        "delay_after": 0.5,
+        "on_fail": "continue"
+      },
+      "enabled": true
+    },
+    {
+      "step_type": "delay",
+      "params": {
+        "duration": 1.0
+      },
+      "enabled": true
+    },
+    {
+      "step_type": "image_click",
+      "params": {
+        "template_path": "C:/Users/10482/Desktop/text/新建文件夹/11线.png",
+        "button": "left",
+        "clicks": 2,
+        "confidence": 0.8,
+        "delay_before": 0.0,
+        "delay_after": 0.5,
+        "on_fail": "continue"
+      },
+      "enabled": true
+    },
+    {
+      "step_type": "delay",
+      "params": {
+        "duration": 1.0
+      },
+      "enabled": true
+    },
+    {
+      "step_type": "image_check",
+      "params": {
+        "template_path": "C:/Users/10482/Desktop/text/新建文件夹/线路已满.png",
+        "confidence": 0.8,
+        "condition": "exists",
+        "if_true_goto": null,
+        "if_false_goto": 190
+      },
+      "enabled": true
+    },
+    {
+      "step_type": "delay",
+      "params": {
+        "duration": 1.0
+      },
+      "enabled": true
+    },
+    {
+      "step_type": "image_click",
+      "params": {
+        "template_path": "C:/Users/10482/Desktop/text/新建文件夹/确定.png",
+        "button": "left",
+        "clicks": 1,
+        "confidence": 0.8,
+        "delay_before": 0.0,
+        "delay_after": 0.5,
+        "on_fail": "continue"
+      },
+      "enabled": true
+    },
+    {
+      "step_type": "delay",
+      "params": {
+        "duration": 1.0
+      },
+      "enabled": true
+    },
+    {
+      "step_type": "delay",
+      "params": {
+        "duration": 1.0
+      },
+      "enabled": true
+    },
+    {
+      "step_type": "keyboard",
+      "params": {
+        "key": "ENTER",
+        "press_count": 1,
+        "press_duration": 50,
+        "interval": 100
+      },
+      "enabled": true
+    },
+    {
+      "step_type": "delay",
+      "params": {
+        "duration": 1.0
+      },
+      "enabled": true
+    },
+    {
+      "step_type": "keyboard",
+      "params": {
+        "key": "UP",
+        "press_count": 1,
+        "press_duration": 50,
+        "interval": 100
+      },
+      "enabled": true
+    },
+    {
+      "step_type": "delay",
+      "params": {
+        "duration": 1.0
+      },
+      "enabled": true
+    },
+    {
+      "step_type": "keyboard",
+      "params": {
+        "key": "ENTER",
+        "press_count": 1,
+        "press_duration": 50,
+        "interval": 100
+      },
+      "enabled": true
+    },
+    {
+      "step_type": "delay",
+      "params": {
+        "duration": 1.0
+      },
+      "enabled": true
+    },
+    {
+      "step_type": "delay",
+      "params": {
+        "duration": 3.0
+      },
+      "enabled": true
+    },
+    {
+      "step_type": "keyboard",
+      "params": {
+        "key": "ESC",
+        "press_count": 1,
+        "press_duration": 50,
+        "interval": 100
+      },
+      "enabled": true
+    },
+    {
+      "step_type": "delay",
+      "params": {
+        "duration": 1.0
+      },
+      "enabled": true
+    },
+    {
+      "step_type": "image_click",
+      "params": {
+        "template_path": "C:/Users/10482/Desktop/text/新建文件夹/服务器选线.png",
+        "button": "left",
+        "clicks": 1,
+        "confidence": 0.8,
+        "delay_before": 0.0,
+        "delay_after": 0.5,
+        "on_fail": "continue"
+      },
+      "enabled": true
+    },
+    {
+      "step_type": "delay",
+      "params": {
+        "duration": 1.0
+      },
+      "enabled": true
+    },
+    {
+      "step_type": "image_click",
+      "params": {
+        "template_path": "C:/Users/10482/Desktop/text/新建文件夹/12线.png",
+        "button": "left",
+        "clicks": 2,
+        "confidence": 0.8,
+        "delay_before": 0.0,
+        "delay_after": 0.5,
+        "on_fail": "continue"
+      },
+      "enabled": true
+    },
+    {
+      "step_type": "delay",
+      "params": {
+        "duration": 1.0
+      },
+      "enabled": true
+    },
+    {
+      "step_type": "image_check",
+      "params": {
+        "template_path": "C:/Users/10482/Desktop/text/新建文件夹/线路已满.png",
+        "confidence": 0.8,
+        "condition": "exists",
+        "if_true_goto": null,
+        "if_false_goto": 208
+      },
+      "enabled": true
+    },
+    {
+      "step_type": "delay",
+      "params": {
+        "duration": 1.0
+      },
+      "enabled": true
+    },
+    {
+      "step_type": "image_click",
+      "params": {
+        "template_path": "C:/Users/10482/Desktop/text/新建文件夹/确定.png",
+        "button": "left",
+        "clicks": 1,
+        "confidence": 0.8,
+        "delay_before": 0.0,
+        "delay_after": 0.5,
+        "on_fail": "continue"
+      },
+      "enabled": true
+    },
+    {
+      "step_type": "delay",
+      "params": {
+        "duration": 1.0
+      },
+      "enabled": true
+    },
+    {
+      "step_type": "delay",
+      "params": {
+        "duration": 1.0
+      },
+      "enabled": true
+    },
+    {
+      "step_type": "keyboard",
+      "params": {
+        "key": "ENTER",
+        "press_count": 1,
+        "press_duration": 50,
+        "interval": 100
+      },
+      "enabled": true
+    },
+    {
+      "step_type": "delay",
+      "params": {
+        "duration": 1.0
+      },
+      "enabled": true
+    },
+    {
+      "step_type": "keyboard",
+      "params": {
+        "key": "UP",
+        "press_count": 1,
+        "press_duration": 50,
+        "interval": 100
+      },
+      "enabled": true
+    },
+    {
+      "step_type": "delay",
+      "params": {
+        "duration": 1.0
+      },
+      "enabled": true
+    },
+    {
+      "step_type": "keyboard",
+      "params": {
+        "key": "ENTER",
+        "press_count": 1,
+        "press_duration": 50,
+        "interval": 100
+      },
+      "enabled": true
+    },
+    {
+      "step_type": "delay",
+      "params": {
+        "duration": 1.0
+      },
+      "enabled": true
+    },
+    {
+      "step_type": "delay",
+      "params": {
+        "duration": 3.0
+      },
+      "enabled": true
+    },
+    {
+      "step_type": "keyboard",
+      "params": {
+        "key": "ESC",
+        "press_count": 1,
+        "press_duration": 50,
+        "interval": 100
+      },
+      "enabled": true
+    },
+    {
+      "step_type": "delay",
+      "params": {
+        "duration": 1.0
+      },
+      "enabled": true
+    },
+    {
+      "step_type": "image_click",
+      "params": {
+        "template_path": "C:/Users/10482/Desktop/text/新建文件夹/服务器选线.png",
+        "button": "left",
+        "clicks": 1,
+        "confidence": 0.8,
+        "delay_before": 0.0,
+        "delay_after": 0.5,
+        "on_fail": "continue"
+      },
+      "enabled": true
+    },
+    {
+      "step_type": "delay",
+      "params": {
+        "duration": 1.0
+      },
+      "enabled": true
+    },
+    {
+      "step_type": "image_click",
+      "params": {
+        "template_path": "C:/Users/10482/Desktop/text/新建文件夹/13线.png",
+        "button": "left",
+        "clicks": 2,
+        "confidence": 0.8,
+        "delay_before": 0.0,
+        "delay_after": 0.5,
+        "on_fail": "continue"
+      },
+      "enabled": true
+    },
+    {
+      "step_type": "delay",
+      "params": {
+        "duration": 1.0
+      },
+      "enabled": true
+    },
+    {
+      "step_type": "image_check",
+      "params": {
+        "template_path": "C:/Users/10482/Desktop/text/新建文件夹/线路已满.png",
+        "confidence": 0.8,
+        "condition": "exists",
+        "if_true_goto": null,
+        "if_false_goto": 226
+      },
+      "enabled": true
+    },
+    {
+      "step_type": "delay",
+      "params": {
+        "duration": 1.0
+      },
+      "enabled": true
+    },
+    {
+      "step_type": "image_click",
+      "params": {
+        "template_path": "C:/Users/10482/Desktop/text/新建文件夹/确定.png",
+        "button": "left",
+        "clicks": 1,
+        "confidence": 0.8,
+        "delay_before": 0.0,
+        "delay_after": 0.5,
+        "on_fail": "continue"
+      },
+      "enabled": true
+    },
+    {
+      "step_type": "delay",
+      "params": {
+        "duration": 1.0
+      },
+      "enabled": true
+    },
+    {
+      "step_type": "delay",
+      "params": {
+        "duration": 1.0
+      },
+      "enabled": true
+    },
+    {
+      "step_type": "keyboard",
+      "params": {
+        "key": "ENTER",
+        "press_count": 1,
+        "press_duration": 50,
+        "interval": 100
+      },
+      "enabled": true
+    },
+    {
+      "step_type": "delay",
+      "params": {
+        "duration": 1.0
+      },
+      "enabled": true
+    },
+    {
+      "step_type": "keyboard",
+      "params": {
+        "key": "UP",
+        "press_count": 1,
+        "press_duration": 50,
+        "interval": 100
+      },
+      "enabled": true
+    },
+    {
+      "step_type": "delay",
+      "params": {
+        "duration": 1.0
+      },
+      "enabled": true
+    },
+    {
+      "step_type": "keyboard",
+      "params": {
+        "key": "ENTER",
+        "press_count": 1,
+        "press_duration": 50,
+        "interval": 100
+      },
+      "enabled": true
+    },
+    {
+      "step_type": "delay",
+      "params": {
+        "duration": 1.0
+      },
+      "enabled": true
+    },
+    {
+      "step_type": "delay",
+      "params": {
+        "duration": 3.0
+      },
+      "enabled": true
+    },
+    {
+      "step_type": "keyboard",
+      "params": {
+        "key": "ESC",
+        "press_count": 1,
+        "press_duration": 50,
+        "interval": 100
+      },
+      "enabled": true
+    },
+    {
+      "step_type": "delay",
+      "params": {
+        "duration": 1.0
+      },
+      "enabled": true
+    },
+    {
+      "step_type": "image_click",
+      "params": {
+        "template_path": "C:/Users/10482/Desktop/text/新建文件夹/服务器选线.png",
+        "button": "left",
+        "clicks": 1,
+        "confidence": 0.8,
+        "delay_before": 0.0,
+        "delay_after": 0.5,
+        "on_fail": "continue"
+      },
+      "enabled": true
+    },
+    {
+      "step_type": "delay",
+      "params": {
+        "duration": 1.0
+      },
+      "enabled": true
+    },
+    {
+      "step_type": "image_click",
+      "params": {
+        "template_path": "C:/Users/10482/Desktop/text/新建文件夹/14线.png",
+        "button": "left",
+        "clicks": 2,
+        "confidence": 0.8,
+        "delay_before": 0.0,
+        "delay_after": 0.5,
+        "on_fail": "continue"
+      },
+      "enabled": true
+    },
+    {
+      "step_type": "delay",
+      "params": {
+        "duration": 1.0
+      },
+      "enabled": true
+    },
+    {
+      "step_type": "image_check",
+      "params": {
+        "template_path": "C:/Users/10482/Desktop/text/新建文件夹/线路已满.png",
+        "confidence": 0.8,
+        "condition": "exists",
+        "if_true_goto": null,
+        "if_false_goto": 244
+      },
+      "enabled": true
+    },
+    {
+      "step_type": "delay",
+      "params": {
+        "duration": 1.0
+      },
+      "enabled": true
+    },
+    {
+      "step_type": "image_click",
+      "params": {
+        "template_path": "C:/Users/10482/Desktop/text/新建文件夹/确定.png",
+        "button": "left",
+        "clicks": 1,
+        "confidence": 0.8,
+        "delay_before": 0.0,
+        "delay_after": 0.5,
+        "on_fail": "continue"
+      },
+      "enabled": true
+    },
+    {
+      "step_type": "delay",
+      "params": {
+        "duration": 1.0
+      },
+      "enabled": true
+    },
+    {
+      "step_type": "delay",
+      "params": {
+        "duration": 1.0
+      },
+      "enabled": true
+    },
+    {
+      "step_type": "keyboard",
+      "params": {
+        "key": "ENTER",
+        "press_count": 1,
+        "press_duration": 50,
+        "interval": 100
+      },
+      "enabled": true
+    },
+    {
+      "step_type": "delay",
+      "params": {
+        "duration": 1.0
+      },
+      "enabled": true
+    },
+    {
+      "step_type": "keyboard",
+      "params": {
+        "key": "UP",
+        "press_count": 1,
+        "press_duration": 50,
+        "interval": 100
+      },
+      "enabled": true
+    },
+    {
+      "step_type": "delay",
+      "params": {
+        "duration": 1.0
+      },
+      "enabled": true
+    },
+    {
+      "step_type": "keyboard",
+      "params": {
+        "key": "ENTER",
+        "press_count": 1,
+        "press_duration": 50,
+        "interval": 100
+      },
+      "enabled": true
+    },
+    {
+      "step_type": "delay",
+      "params": {
+        "duration": 1.0
+      },
+      "enabled": true
+    }
+  ]
+}
